@@ -7,5 +7,5 @@ let sumanumeros = 0
     else {
       alert("Ingrese solamente numeros")
     }
-  } while (confirm() === true);
+  } while (confirm("¿Deseas agregar otro número?"));
 alert("la suma de todos los números ingresados es: " + sumanumeros) 
